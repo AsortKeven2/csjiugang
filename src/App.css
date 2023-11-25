@@ -1,0 +1,75 @@
+.appContainer {
+    width: 100vw;
+}
+
+.appHeader {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    padding: 0 10px;
+    background: #3881dd;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.logo {
+    max-width: 45px;
+    padding: 4px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.title {
+    color: #fff;
+    background-color: #3881dd;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 50px;
+    padding: 0 10px;
+    border-top: 1px solid #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.detail {
+    color: #fff;
+    background-color: #3881dd;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.itemRow {
+    width: 100%;
+}
+
+.itemRowLeft {
+    min-height: 36px;
+    line-height: 36px;
+    border: 1px solid #e4e4e4;
+    width: 120px;
+    text-align: right;
+    font-size: 14px;
+    background: #eee;
+    margin-right: 10px;
+}
+
+.itemRowRight {
+    min-height: 36px;
+    line-height: 36px;
+    border: 1px solid #e4e4e4;
+    padding: 0 15px;
+    font-size: 14px;
+}
